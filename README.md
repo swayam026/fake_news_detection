@@ -1,3 +1,5 @@
+Project deployed on streamlit : https://real-or-fake-news.streamlit.app/
+
 Fake News Detection using NLP and Machine Learning
 
 1. Project Description
