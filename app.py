@@ -50,3 +50,14 @@ if st.button("Predict"):
             st.error(f"Fake News Detected! (Confidence: {proba[0]*100:.2f}%)")
         else:
             st.success(f"Real News Detected! (Confidence: {proba[1]*100:.2f}%)")
+
+# --- Footer Credit ---
+st.markdown(
+    """
+    <hr style="margin-top: 50px;">
+    <div style='text-align: center; color: gray; font-size: 14px;'>
+        Made by <b>Swayam Agarwal</b>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
